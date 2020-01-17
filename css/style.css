@@ -30,9 +30,11 @@ a:hover {
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #1eacc7), to(#4698a8));
   background-image: linear-gradient(0deg, #1eacc7 2%, #4698a8 100%); }
 
-.promo button:hover {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #1eacc7), to(#4698a8));
-  background-image: linear-gradient(0deg, #1eacc7 2%, #4698a8 100%); }
+.promo {
+  min-height: 540px; }
+  .promo button:hover {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #1eacc7), to(#4698a8));
+    background-image: linear-gradient(0deg, #1eacc7 2%, #4698a8 100%); }
 
 .label {
   background-color: #000000;
